@@ -10,6 +10,11 @@ class B{
 		System.out.println("Hi class B");
 	}
 }
+class C{
+	C(){
+		System.out.println("Hi class C");
+	}
+}
  
 class Demo1
 {
@@ -18,5 +23,6 @@ class Demo1
 		System.out.println("Hi welcome to java");
 		A a=new A();
 		B b= new B();
+		C c=new C();
 	}
 }
